@@ -12,6 +12,12 @@ public class Voto {
 		this.corso = corso;
 		this.date = date;
 	}
+	
+	@Override
+	public String toString() {
+		return "Voto [voto=" + voto + ", corso=" + corso + ", date=" + date + "]";
+	}
+
 	public int getVoto() {
 		return voto;
 	}
