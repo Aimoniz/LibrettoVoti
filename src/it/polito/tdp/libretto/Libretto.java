@@ -28,5 +28,15 @@ public class Libretto {
 	   }
 	   return result;
    }
+   public Voto  cercaEsame(String nomeEsame) {
+	   for(Voto v:this.voti) {
+		   if(v.getCorso().equals(nomeEsame)) {
+			   return v;
+			   }
+	   }
+		   return null;}
+		   
+   
+   
    
 }
