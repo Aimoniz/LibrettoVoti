@@ -37,7 +37,9 @@ public class Voto {
 	public void setDate(LocalDate date) {
 		this.date = date;
 	}
-	
+	 public Voto clone() {
+		 return new Voto(this.punti,this.corso,this.date);
+	 }
 	
 	
 
